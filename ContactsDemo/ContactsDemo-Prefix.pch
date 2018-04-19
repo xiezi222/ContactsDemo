@@ -1,0 +1,21 @@
+//
+//  ContactsDemo-Prefix.pch
+//  ContactsDemo
+//
+//  Created by xing on 2018/4/18.
+//  Copyright © 2018年 xing. All rights reserved.
+//
+
+#ifndef ContactsDemo_Prefix_pch
+#define ContactsDemo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <ContactsUI/ContactsUI.h>
+#import <Contacts/Contacts.h>
+#import "ContactsManager.h"
+#import "AlertManager.h"
+
+#endif /* ContactsDemo_Prefix_pch */
+
